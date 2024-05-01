@@ -1,0 +1,22 @@
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url(bg.jpg);
+}
+
+
+.container {
+  width: 90vw;
+  height: 90vh;
+  background-color: hsla(208, 56%, 68%, 0.301);  
+  border-radius: 20px;
+  backdrop-filter: blur(10px) saturate(180%);
+  border: #213547 solid 1px;
+  display: flex;
+}
